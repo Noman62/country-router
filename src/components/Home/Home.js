@@ -12,7 +12,6 @@ const Home = () => {
 
     return (
         <div className="div-container">
-            <h1>This is Home</h1>
             {
                 countries.map(country=><County country={country}></County>)
             }
